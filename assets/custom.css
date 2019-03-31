@@ -1,5 +1,5 @@
 body {
-    background-image: url("./dynamic-style.png")
+    background-image: url("./dynamic-style.png");
 }
 
 nav {
@@ -53,19 +53,19 @@ p {
     line-height: 2.6;
 }
 
-.footer-copyright {
+
+.footer-margin {
+   
     border-top: 8px solid #4aaaa5;
     color: white;
     background-color: #666666;
     padding: 10px;
+  
     font-size:small;
-    margin-top:20px;
-}
-
-.footer-margin {
     bottom: 0;
     width: 100%;
-    
+    position: absolute;
+    height: 80px;
   }
 
   form {
@@ -147,4 +147,30 @@ p {
 
     width:200px;
       height: 200px;
+  }
+
+  @media (min-width: 991px) {
+      .navbar-toggler{
+        margin-right: 5%;
+        margin-top: 2%;
+      }
+  }
+
+  @media (min-width:991px) {
+    .navbar {
+        height:72px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navbar-toggler{
+      margin-right: 5%;
+      margin-top: 2%;
+    }
+}
+
+@media (min-width:768px) {
+    .navbar {
+        height:72px;
+    }
   }
